@@ -1,0 +1,59 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    width: 60rem;
+    background: linear-gradient(to right, blue 55%, white 45%);
+    border-radius: 1rem;
+    border-color: #3c01ff;
+    background:black; 
+}
+
+.ATM_input, .Pin_input {
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+.ATM_input{
+    margin-bottom: 10px;
+    
+}
+
+.pin_inputt{
+    margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 10px; /* space below heading */
+}
+
+p {
+  margin-top: 0; /* remove extra space above paragraph if needed */
+}
+
+.read-button{
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #65a5ef;
+    font-weight: bold;
+}
+
+.login-buttions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    column-gap: 10px;
+}
