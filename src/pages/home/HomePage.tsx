@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../components/atoms/button/Button'
 import { useNavigate } from 'react-router-dom';
-import './HomePage.css'
+import './HomePage.css' 
 
 const HomePage = () => {
   return (
@@ -26,6 +26,7 @@ const HomePage = () => {
                     <Button onClick={()=>navigate("/")} classname="read-button">Logout</Button>
                 </div>
             </div>
+            <div></div>
         </div>
     </div>
   )
