@@ -69,6 +69,7 @@ const Homepage = () => {
   return (
     
       <div className="main_container">
+        <div></div>
         <h2>Trainee Management</h2>
         <div className="add_btn">
           <button onClick={handlePopupOpen}>+ Add</button>
